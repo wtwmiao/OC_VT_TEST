@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7590C7761EDE6B850015605E /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7590C7751EDE6B850015605E /* VideoToolbox.framework */; };
 		75A000B51ED810D0006E923D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A000B41ED810D0006E923D /* main.m */; };
 		75A000B81ED810D0006E923D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A000B71ED810D0006E923D /* AppDelegate.m */; };
 		75A000BB1ED810D0006E923D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A000BA1ED810D0006E923D /* ViewController.m */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7590C7751EDE6B850015605E /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		75A000B01ED810D0006E923D /* VideotoolBox_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideotoolBox_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A000B41ED810D0006E923D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75A000B61ED810D0006E923D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,18 +40,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7590C7761EDE6B850015605E /* VideoToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7590C7741EDE6B850015605E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7590C7751EDE6B850015605E /* VideoToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		75A000A71ED810D0006E923D = {
 			isa = PBXGroup;
 			children = (
 				75A000CE1ED8180A006E923D /* cut_12.mp4 */,
 				75A000B21ED810D0006E923D /* VideotoolBox_Test */,
 				75A000B11ED810D0006E923D /* Products */,
+				7590C7741EDE6B850015605E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -327,6 +339,7 @@
 				75A000C91ED810D0006E923D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
