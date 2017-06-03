@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7590C7761EDE6B850015605E /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7590C7751EDE6B850015605E /* VideoToolbox.framework */; };
+		7590C77A1EDFCB520015605E /* VTEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7590C7791EDFCB520015605E /* VTEncoder.m */; };
 		75A000B51ED810D0006E923D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A000B41ED810D0006E923D /* main.m */; };
 		75A000B81ED810D0006E923D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A000B71ED810D0006E923D /* AppDelegate.m */; };
 		75A000BB1ED810D0006E923D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A000BA1ED810D0006E923D /* ViewController.m */; };
@@ -20,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		7590C7751EDE6B850015605E /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		7590C7781EDFCB520015605E /* VTEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTEncoder.h; path = VTEncoder/VTEncoder.h; sourceTree = "<group>"; };
+		7590C7791EDFCB520015605E /* VTEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTEncoder.m; path = VTEncoder/VTEncoder.m; sourceTree = "<group>"; };
 		75A000B01ED810D0006E923D /* VideotoolBox_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideotoolBox_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A000B41ED810D0006E923D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75A000B61ED810D0006E923D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,6 +58,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7590C7771EDFCB200015605E /* VTEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				7590C7781EDFCB520015605E /* VTEncoder.h */,
+				7590C7791EDFCB520015605E /* VTEncoder.m */,
+			);
+			name = VTEncoder;
+			sourceTree = "<group>";
+		};
 		75A000A71ED810D0006E923D = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +88,7 @@
 		75A000B21ED810D0006E923D /* VideotoolBox_Test */ = {
 			isa = PBXGroup;
 			children = (
+				7590C7771EDFCB200015605E /* VTEncoder */,
 				75A000CA1ED8114C006E923D /* VTDecoder */,
 				75A000B61ED810D0006E923D /* AppDelegate.h */,
 				75A000B71ED810D0006E923D /* AppDelegate.m */,
@@ -181,6 +194,7 @@
 			files = (
 				75A000BB1ED810D0006E923D /* ViewController.m in Sources */,
 				75A000B81ED810D0006E923D /* AppDelegate.m in Sources */,
+				7590C77A1EDFCB520015605E /* VTEncoder.m in Sources */,
 				75A000CD1ED8117D006E923D /* VTDecoder.m in Sources */,
 				75A000B51ED810D0006E923D /* main.m in Sources */,
 			);
